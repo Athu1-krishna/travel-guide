@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero{
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+.text2{
+    font-family: "Satisfy", cursive;
+}
+.bg-text{
+    margin-top: 6rem;
+}
+.heading{
+    color: #fff;   
+}
+
+.logo{
+    color: orange;
+    font-size: 2.5rem;
+}
+#navbar{
+    position: relative;
+    z-index: 1;
+}
+.nav-home{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.navbar-links a{
+    color: #fff;
+}
+.card-btn{
+    background-color: #0000CD;
+    text-decoration: none;
+    padding: 0.2em 0.8em;
+    display: inline-block;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+
+/* north section */
+.cards-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
+
+.img-con{
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    padding: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px 15px;   
+}
+
+.img-con img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.img-details{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    top: 0;
+    right: -100% ;
+    position: absolute;
+    background: rgba(13, 13, 13, 0.6);
+    border-radius: 5px;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 400ms;
+}
+
+.img-con:hover .img-details{
+    right: 0;
+
+}
+
+.img-details h3{
+    color: white;
+}
+
+.img-details p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 0px;
+}
+
+.img-details p span{
+    color: blue;
+}
+
+/* north section end */
+.premium-text{
+    font-family: "Satisfy", cursive;
+
+}
+footer{
+    background-color: #1c243b;
+    color: #fff;
+}
